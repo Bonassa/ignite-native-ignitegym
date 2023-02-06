@@ -6,7 +6,7 @@ import { UserPhoto } from '@components/UserPhoto';
 
 export function HomeHeader() {
   return (
-    <HStack bg="gray.600" pt={30} pb={4} px={8} alignItems="center">
+    <HStack bg="gray.600" pt={31} pb={4} px={8} alignItems="center">
       <UserPhoto 
         source={{ uri: 'https://github.com/Bonassa.png' }}
         size={16}

@@ -6,7 +6,7 @@
 Projeto desenvolvido na trilha de react native do programa Ignite da Rocketseat.
 
 ## Protótipo
-<!-- <img src="./assets/Screens.png" alt="Protótipo das telas"> -->
+<img src="./assets/Screens.png" alt="Protótipo das telas">
 
 ## Bibliotecas utilizadas
 - [Babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver)
@@ -53,4 +53,28 @@ Stack Navigation:
 Bottom Tab Navigation:
 ```bash
   yarn add @react-navigation/bottom-tabs
+```
+
+- [Image-picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)
+Seleção de imagens da galeria
+```bash
+  npx expo install expo-image-picker
+```
+
+- [File-system](https://docs.expo.dev/versions/latest/sdk/filesystem/)
+Informações sobre arquivos na aplicação
+```bash
+  npx expo install expo-file-system
+```
+
+- [React-hook-form](https://react-hook-form.com/get-started)
+Controle de formulários
+```bash
+  yarn add react-hook-form
+```
+
+- [yup](https://www.npmjs.com/package/yup)
+Schema validation
+```bash
+  yarn add @hookform/resolvers yup
 ```
