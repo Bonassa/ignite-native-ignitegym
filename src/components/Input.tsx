@@ -4,7 +4,7 @@ type Props = IInputProps & {
   errorMessage?: string | null;
 }
 
-export function Input({errorMessage = null, isInvalid, ...rest}: Props){
+export function Input({ errorMessage = null, isInvalid, ...rest }: Props) {
   const invalid = !!errorMessage || isInvalid;
 
   return (
@@ -31,9 +31,9 @@ export function Input({errorMessage = null, isInvalid, ...rest}: Props){
         {...rest}
       />
 
-      <FormControl.ErrorMessage>
+      <FormControl.ErrorMessage _text={{ color: 'red.500' }}>
         {errorMessage}
       </FormControl.ErrorMessage>
     </FormControl>
-  )
+  );
 }
